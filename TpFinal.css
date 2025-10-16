@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2e302e;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+
+.logo img {
+    width: 80px; 
+    border-radius: 100%;
+}
+
+.actions {
+    display: flex;
+    gap: 10px; 
+    align-items: center;
+}
+
+.balance-text {
+    color: white;
+    font-size: 1rem;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.roulette img {
+    width: 150px;
+    margin: 20px auto;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn.cancel {
+    background-color: red;
+}
+
+.bet-section-container {
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 550px;
+    height: 120px;
+    border-radius: 15px;
+}
+
+.bet-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.bet {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.bet.red {
+    background-color: red;
+    cursor: pointer;
+}
+
+.bet.black {
+    background-color: black;
+    cursor: pointer;
+}
+
+.balance-info {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+
